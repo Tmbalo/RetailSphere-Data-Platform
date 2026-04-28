@@ -74,11 +74,11 @@ multi-channel retail group with:
 | Documentation | Word + draw.io + dbt docs |
 
 ## Folder Structure
-docs/          Design documents — one folder per step
-src/           Source code — Bronze, Silver, Gold, Pipelines
-data/          Sample data and generators
-reports/       Power BI files
-diagrams/      Architecture diagrams
+- docs/          Design documents — one folder per step
+- src/           Source code — Bronze, Silver, Gold, Pipelines
+- data/          Sample data and generators
+- reports/       Power BI files
+- diagrams/      Architecture diagrams
 
 ## Business Domains
 
