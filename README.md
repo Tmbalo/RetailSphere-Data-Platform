@@ -1,8 +1,8 @@
-# \# RetailSphere (Pty) Ltd — Data Platform Design and Build
+# # RetailSphere (Pty) Ltd — Data Platform Design and Build
 
 # 
 
-# \## About This Project
+# ## About This Project
 
 # 
 
