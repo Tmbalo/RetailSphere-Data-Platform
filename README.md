@@ -39,8 +39,8 @@ multi-channel retail group with:
 | Step | Name | Status | Deliverable |
 |------|------|--------|-------------|
 | 1 | Domain Identification | ✅ Complete | BDR-001 v1.2 |
-| 2 | Business Process Analysis | 🔄 In Progress | BPA-001 |
-| 3 | Functional Requirements | ⬜ Not Started | FRD-001 |
+| 2 | Business Process Analysis | ✅ Complete | BPA-001 |
+| 3 | Functional Requirements | 🔄 In Progress | FRD-001 |
 | 4 | Non-Functional Requirements | ⬜ Not Started | NFR-001 |
 | 5 | Source System Investigation | ⬜ Not Started | SSI-001 |
 | 6 | Risk Analysis and ADRs | ⬜ Not Started | RR-001 + ADRs |
