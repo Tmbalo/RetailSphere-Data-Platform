@@ -42,8 +42,8 @@ multi-channel retail group with:
 | 2 | Business Process Analysis | ✅ Complete | BPA-001 |
 | 3 | Functional Requirements | ✅ Complete | FRD-001 |
 | 4 | Non-Functional Requirements | ✅ Complete | NFR-001 |
-| 5 | Source System Investigation | 🔄 In Progress | SSI-001 |
-| 6 | Risk Analysis and ADRs | ⬜ Not Started | RR-001 + ADRs |
+| 5 | Source System Investigation | ✅ Complete | SSI-001 |
+| 6 | Risk Analysis and ADRs | 🔄 In Progress | RR-001 + ADRs |
 | 7 | Dimensional Model Design | ⬜ Not Started | DM-001 |
 | 8 | Source to Target Mapping | ⬜ Not Started | STM-001 |
 | 9 | Physical Database Design | ⬜ Not Started | PDD-001 |
