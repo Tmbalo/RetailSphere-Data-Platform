@@ -43,8 +43,8 @@ multi-channel retail group with:
 | 3 | Functional Requirements | ✅ Complete | FRD-001 |
 | 4 | Non-Functional Requirements | ✅ Complete | NFR-001 |
 | 5 | Source System Investigation | ✅ Complete | SSI-001 |
-| 6 | Risk Analysis and ADRs | 🔄 In Progress | RR-001 + ADRs |
-| 7 | Dimensional Model Design | ⬜ Not Started | DM-001 |
+| 6 | Risk Analysis and ADRs | ✅ Complete | RR-001 + ADRs |
+| 7 | Dimensional Model Design | 🔄 In Progress | DM-001 |
 | 8 | Source to Target Mapping | ⬜ Not Started | STM-001 |
 | 9 | Physical Database Design | ⬜ Not Started | PDD-001 |
 | 10 | Data Integration Design | ⬜ Not Started | DID-001 |
