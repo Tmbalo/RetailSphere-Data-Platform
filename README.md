@@ -43,7 +43,7 @@ multi-channel retail group with:
 | 3 | Functional Requirements | ✅ Complete | FRD-001 |
 | 4 | Non-Functional Requirements | ✅ Complete | NFR-001 |
 | 5 | Source System Investigation | ✅ Complete | SSI-001 |
-| 6 | Risk Analysis and ADRs | ✅ Complete | RR-001 + ADRs |
+| 6 | Risk Analysis and ADRs | ✅ Complete | ADR-REG-001 v2.0 + ADRs |
 | 7 | Dimensional Model Design | 🔄 In Progress | DM-001 |
 | 8 | Source to Target Mapping | ⬜ Not Started | STM-001 |
 | 9 | Physical Database Design | ⬜ Not Started | PDD-001 |
@@ -95,13 +95,13 @@ multi-channel retail group with:
 
 | ADR | Title | Status |
 |-----|-------|--------|
-| ADR-001 | Master Product Identifier Strategy | Pending |
-| ADR-002 | Unified Customer Identity Resolution | Pending |
-| ADR-003 | Supplier Contract PDF Extraction | Pending |
-| ADR-004 | Medallion Architecture Layer Design | Pending |
-| ADR-005 | Orchestration and Pipeline Strategy | Pending |
-| ADR-006 | Marketing Attribution Logic | Pending |
-| ADR-007 | Contact Governance and Opt-out | Pending |
+| ADR-001 | Master Product Identifier Strategy | APPROVED |
+| ADR-002 | Unified Customer Identity Resolution | IN PROGRESS |
+| ADR-003 | Supplier Contract PDF Extraction | IN PROGRESS |
+| ADR-004 | Medallion Architecture Layer Design | APPROVED |
+| ADR-005 | Orchestration and Pipeline Strategy | APPROVED |
+| ADR-006 | Marketing Attribution Logic | IN PROGRESS |
+| ADR-007 | Contact Governance and Opt-out | IN PROGRESS |
 
 ---
 *This is a portfolio project using fictional data and scenarios.*
