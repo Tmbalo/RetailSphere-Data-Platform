@@ -31,7 +31,7 @@ multi-channel retail group with:
 - 87 stores nationally
 - Clothing, homeware, and electronics categories
 - 2.1 million loyalty members
-- 6 source systems
+- 10 source systems
 
 ## The 18-Step Framework
 
@@ -44,7 +44,7 @@ multi-channel retail group with:
 | 4 | Non-Functional Requirements | ✅ Complete | NFR-001 |
 | 5 | Source System Investigation | ✅ Complete | SSI-001 |
 | 6 | Risk Analysis and ADRs | ✅ Complete | ADR-REG-001 v2.0 + ADRs |
-| 7 | Dimensional Model Design | ✅ Complete | DM-001 |
+| 7 | Dimensional Model Design | ✅ Complete | DM-001 v1.0|
 | 8 | Source to Target Mapping | 🔄 In Progress | STM-001 |
 | 9 | Physical Database Design | ⬜ Not Started | PDD-001 |
 | 10 | Data Integration Design | ⬜ Not Started | DID-001 |
