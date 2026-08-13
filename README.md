@@ -67,7 +67,7 @@ multi-channel retail group with:
 |-------|------|
 | Language | Python, SQL, YAML |
 | Transformation | dbt |
-| Database | SQL Server + Azure Synapse |
+| Database | SQL Server + Microsoft Fabric Warehouse |
 | Orchestration | Azure Data Factory |
 | Reporting | Power BI |
 | Version Control | Git + GitHub |
