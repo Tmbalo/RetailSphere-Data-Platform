@@ -46,8 +46,8 @@ multi-channel retail group with:
 | 6 | Risk Analysis and ADRs | ✅ Complete | ADR-REG-001 v2.0 + ADRs |
 | 7 | Dimensional Model Design | ✅ Complete | DM-001 v1.0 --> v1.1|
 | 8 | Source to Target Mapping | ✅ Complete | STM-001 |
-| 9 | Physical Database Design | 🔄 In Progress | PDD-001 |
-| 10 | Data Integration Design | ⬜ Not Started | DID-001 |
+| 9 | Physical Database Design | ✅ Complete | PDD-001 |
+| 10 | Data Integration Design | 🔄 In Progress | DID-001 |
 | 11 | Metadata Strategy | ⬜ Not Started | Metadata doc |
 | 12 | Testing Strategy | ⬜ Not Started | Test plan |
 
