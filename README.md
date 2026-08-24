@@ -38,7 +38,7 @@ multi-channel retail group with:
 ### Phase 1 — Design (Steps 1-12)
 | Step | Name | Status | Deliverable |
 |------|------|--------|-------------|
-| 1 | Domain Identification | ✅ Complete | BDR-001 v1.2 |
+| 1 | Domain Identification | ✅ Complete | BDR-001 v1.3 |
 | 2 | Business Process Analysis | ✅ Complete | BPA-001 |
 | 3 | Functional Requirements | ✅ Complete | FRD-001 |
 | 4 | Non-Functional Requirements | ✅ Complete | NFR-001 |
