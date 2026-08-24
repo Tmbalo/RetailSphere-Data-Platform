@@ -84,12 +84,14 @@ multi-channel retail group with:
 
 | Domain | Process Owner | Source Systems |
 |--------|--------------|----------------|
-| Procurement | Sipho Dlamini | SAP ECC |
+| Procurement | Sipho Dlamini | SAP ECC, Supplier Contract PDFs |
 | Inventory Management | Zanele Mokoena | SAP ECC, Oracle MICROS POS |
-| Sales | Rethabile Sithole | POS, Shopify, Salesforce |
+| Sales | Rethabile Sithole | Oracle MICROS POS, Shopify, Salesforce CRM |
 | Customer Loyalty | Priya Naidoo | Salesforce CRM |
 | Finance | Johan van der Merwe | SAP ECC, Excel |
 | Marketing | Rethabile Sithole | Marketing Cloud, Meta, GA4 |
+
+*Note: SQL Server Legacy DW and Supplier Contract PDFs are both part of SSI-001's 10 investigated source systems. Legacy DW is decommission-bound (see ADR register) and does not feed any active domain build.
 
 ## Critical Architecture Decisions
 
