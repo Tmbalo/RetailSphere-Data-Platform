@@ -23,6 +23,12 @@ To prove — with working code and complete documentation —
 that I can handle complex technical design AND difficult
 stakeholder engagements simultaneously.
 
+## Glossary
+
+New to data engineering terms? See [glossary.md](docs/glossary.md) for
+plain-English definitions of everything technical used in this repository.
+
+
 ## Company Overview
 
 RetailSphere (Pty) Ltd is a fictional South African
