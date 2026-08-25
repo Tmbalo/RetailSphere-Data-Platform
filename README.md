@@ -23,6 +23,10 @@ To prove — with working code and complete documentation —
 that I can handle complex technical design AND difficult
 stakeholder engagements simultaneously.
 
+## High Level Architecture
+
+![RetailSphere High Level Architecture](diagrams/retailsphere_high_level_architecture.png)
+
 ## Glossary
 
 New to data engineering terms? See [glossary.md](docs/glossary.md) for
