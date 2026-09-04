@@ -57,8 +57,8 @@ multi-channel retail group with:
 | 7 | Dimensional Model Design | ✅ Complete | DM-001 v1.0 --> v1.1|
 | 8 | Source to Target Mapping | ✅ Complete | STM-001 |
 | 9 | Physical Database Design | ✅ Complete | PDD-001 |
-| 10 | Data Integration Design | 🔄 In Progress | DID-001 |
-| 11 | Metadata Strategy | ⬜ Not Started | Metadata doc |
+| 10 | Data Integration Design | ✅ Complete | DID-001 |
+| 11 | Metadata Strategy | 🔄 In Progress | Metadata doc |
 | 12 | Testing Strategy | ⬜ Not Started | Test plan |
 
 ### Phase 2 — Build (Steps 13-18)
