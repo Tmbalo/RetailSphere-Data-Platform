@@ -58,8 +58,8 @@ multi-channel retail group with:
 | 8 | Source to Target Mapping | ✅ Complete | STM-001 |
 | 9 | Physical Database Design | ✅ Complete | PDD-001 |
 | 10 | Data Integration Design | ✅ Complete | DID-001 |
-| 11 | Metadata Strategy | 🔄 In Progress | Metadata doc |
-| 12 | Testing Strategy | ⬜ Not Started | Test plan |
+| 11 | Metadata Strategy | ✅ Complete | MET-001 |
+| 12 | Testing Strategy | 🔄 In Progress | Test plan |
 
 ### Phase 2 — Build (Steps 13-18)
 | Step | Name | Status | Deliverable |
