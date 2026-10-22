@@ -59,12 +59,12 @@ multi-channel retail group with:
 | 9 | Physical Database Design | ✅ Complete | PDD-001 |
 | 10 | Data Integration Design | ✅ Complete | DID-001 |
 | 11 | Metadata Strategy | ✅ Complete | MET-001 |
-| 12 | Testing Strategy | 🔄 In Progress | Test plan |
+| 12 | Testing Strategy | ✅ Complete | TST-001 |
 
 ### Phase 2 — Build (Steps 13-18)
 | Step | Name | Status | Deliverable |
 |------|------|--------|-------------|
-| 13 | Build Bronze Layer | ⬜ Not Started | Python + DDL |
+| 13 | Build Bronze Layer | 🔄 In Progress | Python + DDL |
 | 14 | Build Silver Layer | ⬜ Not Started | dbt models |
 | 15 | Build Gold Layer | ⬜ Not Started | Star schema |
 | 16 | Pipeline Orchestration | ⬜ Not Started | ADF pipelines |
