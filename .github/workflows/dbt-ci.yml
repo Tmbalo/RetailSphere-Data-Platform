@@ -15,5 +15,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - run: pip install dbt-core dbt-duckdb
+      - run: pip install dbt-core dbt-duckdb pre-commit
       - run: dbt build --profiles-dir .
+      - run: dbt docs generate --profiles-dir .
+      - name: Documentation gate
+        working-directory: .
+        run: pre-commit run --all-files
