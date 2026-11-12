@@ -1,0 +1,17 @@
+version: 2
+
+models:
+  - name: stg_sales
+    description: "Cleaned sales lines, one row per order line item."
+    columns:
+      - name: order_id
+        description: "Business transaction identifier from the POS."
+        tests: [not_null]
+      - name: line_number
+        description: "Line position within the order, starting at 1."
+        tests: [not_null]
+      - name: sale_date
+        description: "Calendar date the sale occurred."
+        tests: [not_null]
+      - name: sales_value
+        description: "Quantity multiplied by unit price, before discounts."
