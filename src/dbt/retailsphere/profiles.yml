@@ -1,0 +1,6 @@
+retail_sandbox:
+  target: ci
+  outputs:
+    ci:
+      type: duckdb
+      path: ci.duckdb
