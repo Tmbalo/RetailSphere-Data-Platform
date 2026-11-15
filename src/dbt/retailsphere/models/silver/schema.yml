@@ -25,6 +25,12 @@ models:
         description: "Selling price per unit at the time of sale."
   - name: stg_pos_sales
     description: "Silver POS sales lines: renamed, typed and enriched from Bronze. One row per order line."
+    tests:
+      - dbt_utils.unique_combination_of_columns:
+          arguments:
+            combination_of_columns:
+              - order_id
+              - line_number
     columns:
       - name: order_id
         description: "POS transaction identifier; groups the lines of one receipt."
