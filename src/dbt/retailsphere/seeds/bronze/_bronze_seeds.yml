@@ -1,0 +1,35 @@
+version: 2
+
+seeds:
+  - name: pos_sales
+    description: "Bronze stand-in for raw Oracle MICROS POS transaction lines, synthetically generated. In production, ADF lands this data in Bronze on Fabric."
+    config:
+      column_types:
+        transaction_id: varchar
+        line_number: integer
+        transaction_timestamp: timestamp
+        store_id: integer
+        barcode: varchar
+        customer_id: varchar
+        quantity: integer
+        unit_price: decimal(12,2)
+        discount_amount: decimal(12,2)
+    columns:
+      - name: transaction_id
+        description: "POS transaction identifier, shared by all lines on one receipt."
+      - name: line_number
+        description: "Line position within the transaction, starting at 1."
+      - name: transaction_timestamp
+        description: "Date and time the transaction was rung up at the till."
+      - name: store_id
+        description: "POS identifier of the store where the sale happened."
+      - name: barcode
+        description: "Product barcode scanned at the till; kept as text so leading zeros survive."
+      - name: customer_id
+        description: "Loyalty customer identifier; empty for anonymous in-store sales."
+      - name: quantity
+        description: "Number of units sold on this line."
+      - name: unit_price
+        description: "Selling price per unit at the time of sale, before discount."
+      - name: discount_amount
+        description: "Discount applied to this line; zero when no discount."

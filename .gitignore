@@ -221,3 +221,4 @@ __marimo__/
 target/
 logs/
 *.duckdb
+dbt_packages/
