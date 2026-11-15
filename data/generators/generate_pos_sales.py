@@ -63,12 +63,16 @@ for t in range(1, NUM_TRANSACTIONS + 1):
             "discount_amount": discount_amount,
         })
 
-        # Output location: data/generated/ (created if missing)
-output_dir = Path(__file__).resolve().parent.parent / "generated"
-output_dir.mkdir(exist_ok=True)
+# Output locations
+repo_root = Path(__file__).resolve().parents[2]
+seed_dir = repo_root / "src" / "dbt" / "retailsphere" / "seeds" / "bronze"
+output_dir = repo_root / "data" / "generated"
+seed_dir.mkdir(parents=True, exist_ok=True)
+output_dir.mkdir(parents=True, exist_ok=True)
 
-# 1. The sales file, shaped like a POS export
-sales_file = output_dir / "pos_sales.csv"
+# 1. The sales file: lands in dbt's seeds as the Bronze stand-in
+sales_file = seed_dir / "pos_sales.csv"
+
 with open(sales_file, "w", newline="") as f:
     writer = csv.DictWriter(f, fieldnames=lines[0].keys())
     writer.writeheader()
